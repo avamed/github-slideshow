@@ -1,4 +1,4 @@
-timezone:    Europe/Berlin
+timezone:    America/Los_Angeles
 future:      false
 # Set baseurl to the base path of the site eg "/mytalk"
 # baseurl:     "/github-slideshow"
@@ -10,16 +10,15 @@ lsi:         false
 permalink:   "/:title"
 
 kramdown:
-  ## for german: "sbquo,lsquo,bdquo,ldquo"
   smart_quotes: lsquo,rsquo,ldquo,rdquo
 
 plugins:
   - jemoji
 
 ## personalize your slide show
-title:       github-slideshow
-author:      GitHubTeacher
-description: A fun activity for learning Git and GitHub.
+title:       AvaMed
+author:      AvaMed
+description: AvaMed slide deck.
 
 sass:
   style:     :compressed

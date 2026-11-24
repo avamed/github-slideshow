@@ -1,13 +1,38 @@
-# Your GitHub Learning Lab Repository for Introducing GitHub
+# AvaMed slide deck
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through. See a word you don't understand? We've included an emoji 📖 next to some key terms. Click on it to see its definition.
+A small [Jekyll](https://jekyllrb.com/) site that renders a slideshow with
+[reveal.js](https://revealjs.com/) (v3.9, vendored in `node_modules/`).
 
-Oh! I haven't introduced myself...
+Originally created from GitHub's "Introduction to GitHub" Learning Lab
+template; the course material has been removed.
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
+## Adding slides
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+Each slide is a Markdown file in `_posts/`. Slides are shown in filename
+order, so name them `0000-01-NN-<name>.md`:
 
-I'll meet you over there, can't wait to get started!
+```markdown
+---
+layout: slide
+title: "Slide title"
+---
 
-This course is using the :sparkles: open source project [reveal.js](https://github.com/hakimel/reveal.js/). In some cases we’ve made changes to the history so it would behave during class, so head to the original project repo to learn more about the cool people behind this project.
+Slide content in Markdown.
+```
+
+## Running locally
+
+```sh
+script/setup    # install gems
+script/server   # serve at http://localhost:4000
+```
+
+## Publishing
+
+Enable GitHub Pages for the `main` branch in the repository settings.
+
+## History
+
+AvaMed's earliest web presence on record is a WordPress.com site at
+avamed.org, archived by the Wayback Machine in early 2016:
+<https://web.archive.org/web/20160306102157/http://avamed.org/>
